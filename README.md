@@ -2,6 +2,16 @@
 
 C_80 CRUD
 
+C_84 Show 
+The front-end: Show an article
+
+Route
+Controller#action
+Model/db table
+View
+
+ 
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
