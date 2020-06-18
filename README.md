@@ -10,6 +10,17 @@ Controller#action
 Model/db table
 View
 
+C_96 Destroy
+The front-end: Destroying Deleting articles
+REST  - Representational state transfer - mapping HTTP verbs (get, post, put/patch, Delete) to CRUD actions
+
+resources provides REST-ful routes to Rails resources
+
+
+
+
+ 
+
  
 
 This README would normally document whatever steps are necessary to get the
