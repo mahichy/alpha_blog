@@ -17,6 +17,14 @@ REST  - Representational state transfer - mapping HTTP verbs (get, post, put/pat
 resources provides REST-ful routes to Rails resources
 
 
+////////////////////////////////////
+C_100 DRY(Don't repeat yourself) code. Refactoring and partials
+_ refactoring
+_extrect away the redundacies in code.
+
+
+
+
 
 
  
