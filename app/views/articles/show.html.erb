@@ -1,4 +1,4 @@
-<div id="page-content">
+
 
 	<h2 class="text-center mt-4"><%= @article.title%></h2>
 
@@ -8,16 +8,12 @@
 				<div class="col-8 mt-4">
 					<div class="card text-center shadow-lg mb-5 bg-white rounded">
 					  <div class="card-header font-italic">
-					    by Mahi Chowdhury
+					     by Mahi Chowdhury
 					  </div>
-					  <div class="card-body">
-					    
-					    <div class="card-text text-left"><%= simple_format(@article.description) %></div>
-					    
-					    
-					    <%= link_to "Edit", edit_article_path(@article), class: "btn btn-info" %>
-					    <%= link_to "Delete", article_path(@article), class: "btn btn-danger", method: :delete, data: {confirt: "Are you sure?"}%>
-
+					  <div class="card-body"> 
+						   <div class="card-text text-left"><%= simple_format(@article.description) %></div>
+						   <%= link_to "Edit", edit_article_path(@article), class: "btn btn-info" %>
+						   <%= link_to "Delete", article_path(@article), class: "btn btn-danger", method: :delete, data: {confirt: "Are you sure?"}%>
 					  </div>
 					  <div class="card-footer text-muted">
 					    <small><%= time_ago_in_words(@article.created_at)%>ago, 
@@ -25,11 +21,10 @@
 					     </small>
 					  </div>
 					</div>
-				</div>
-			</div>	
-		
-	</div>
-</div>
+			    </div>
+			</div>		
+  </div>
+
 
 
 
