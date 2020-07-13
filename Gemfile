@@ -17,6 +17,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 
+gem 'bcrypt','~> 3.1.7'
+
 
 
 
